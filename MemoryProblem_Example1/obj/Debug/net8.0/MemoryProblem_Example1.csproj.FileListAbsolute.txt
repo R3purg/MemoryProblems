@@ -1,0 +1,14 @@
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\bin\Debug\net8.0\MemoryProblem_Example1.exe
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\bin\Debug\net8.0\MemoryProblem_Example1.deps.json
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\bin\Debug\net8.0\MemoryProblem_Example1.runtimeconfig.json
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\bin\Debug\net8.0\MemoryProblem_Example1.dll
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\bin\Debug\net8.0\MemoryProblem_Example1.pdb
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.AssemblyInfoInputs.cache
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.AssemblyInfo.cs
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.csproj.CoreCompileInputs.cache
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.dll
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\refint\MemoryProblem_Example1.dll
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.pdb
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\MemoryProblem_Example1.genruntimeconfig.cache
+D:\Web_Projects\.NET\MemoryProblem\MemoryProblem_Example1\obj\Debug\net8.0\ref\MemoryProblem_Example1.dll

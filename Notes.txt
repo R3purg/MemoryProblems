@@ -1,0 +1,35 @@
+dotnet tool install --global dotnet-counters
+
+dotnet tool install --global dotnet-dump
+dotnet-dump ps
+dotnet-dump collect -p {id}
+dotnet-dump analyze {copied_path}
+{dumpheap -stat}
+{dumpheap -mt {memory_address}}
+{gcroot {address}}
+
+dotnet tool install --global dotnet-gcdump
+dotnet-gcdump ps
+(run before memory increase) dotnet-gcdump collect -p {id} -o {filename}
+(run after memory increase) dotnet-gcdump collect -p 13844 -o {increase}
+
+Notes:
+Technically, you can not have a memory leak in a dot net core application with plain vanilla c-sharp objects,
+because they run on a GC.
+However, if you have objects in memory that live far longer that they should, they could occupy memory.
+
+Example of GC thinking that objects are alive.
+
+creating new variable - allocates bytes of memory. On GC - the allocated memory will be deleted.
+Analogy: Open a water tap when you want water. Closing the water tap for water to not loeak. Whenever you want memory,
+you assign some, but if no GC happens? Memory will stay allocated, it will not get cleaned up. Same as openning
+water tap and not closing it.
+
+Memory - RAM on your computer
+Leak - "Loss" of memory
+Memory leaks are not permenant
+First symptom of Memory Leak: slow computer
+
+The program is taking up RAM to perform its computation - Not a Memory Leak.
+The program is holding memory but not actually using it - Memory Leak!
+Garbage Collection: a measure to release unused memory.
